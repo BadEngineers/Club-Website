@@ -1,3 +1,7 @@
+body {    
+    margin-top: 3.6em !important; 
+    /*background-color: #EDF2F4 !important;*/
+}
 .header-image {
     display: block;
     width: 100%;
@@ -8,30 +12,26 @@
     background-size: cover;
     -o-background-size: cover;
 }
-.carousel {
-    width:60em;
-    height:40em;
-    overflow:hidden
-  }
-.center-block {  
-    display: table;  
-    margin: 0 auto;
-    margin-right: auto;  
-    margin-left: auto;  
-    text-align: center;
-  } 
 .headline {
     padding: 1em 0; 
 }
-body {    
-    margin-top: 3.6em !important; 
+.carousel {
+    width:60em;
+    height:40em;
+    overflow:hidden;
 }
-.container > .navbar-header, 
-.container-fluid > .navbar-header, 
-.container > .navbar-collapse,
-.container-fluid > .navbar-collapse {
-  margin-right: -15px;
-  margin-left: -15px;
+.carousel-inner > .item > img {
+    min-width: 100%;
+    width: 100%;
+}
+.navbar-nav {
+    padding: 0.2em;
+    width: 100%;
+    text-align: center;
+}
+.navbar> li {
+    display: inline-block; 
+    overflow: hidden;
 }
 .navbar-toggle {
     position: relative;
@@ -44,4 +44,77 @@ body {
     background-image: none;
     border: 1px solid transparent;
     border-radius: 4px;
-  }
+}
+.nav-link a{   
+    border-style: solid;
+    border-radius: 7%;
+    border-color: transparent;
+    text-align: center;
+    color: rgb(90, 93, 126)  !important;      
+    font-family: 'Righteous', cursive !important;   
+    font-size: 1.2em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.nav-link a:hover {    
+    color: rgb(131, 113, 172)  !important;          
+    border-bottom: solid 0.2em;
+}
+#main{        
+    padding-top: 5em;    
+    padding-bottom: 6em;    
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    font-size: 1.5em;
+}
+a{
+    font-size: 1.1em;
+    font-family: 'Roboto', sans-serif !important;
+    color: rgb(131, 113, 172) !important;      
+}
+.sub {
+    padding-top: 12em;
+    padding-bottom: 12em;
+}
+#home{
+
+}
+#about{
+    background: url("../img/1.jpg") no-repeat center center fixed;    
+}
+#events{    
+    background-color:  rgb(110, 93, 150);
+    color: white;    
+}
+#events h1, #events h2, #events h3 {
+    color: rgb(225, 222, 233) !important;
+}
+#contact {
+    background: url("../img/2.jpg") no-repeat center center fixed;    
+}
+#contact h1, #contact h2, #contact, h3#contact p {
+    color: rgb(226, 222, 233) !important;
+}
+#footer {
+    text-align: center;
+    color: #2B2D42 !important;
+    background-color: #EDF2F4;
+    padding: 4em;        
+}
+h1{
+    margin-bottom: 1em !important;
+}
+h1, h2, h3, h4 {
+    color: rgb(67, 58, 90) !important;
+    font-family: 'Righteous', cursive !important;   
+}
+hr {
+    margin: 3em !important;
+}
+
+.navbar-brand>img {
+    height: 2em;
+    width: auto;
+}
+  

@@ -1,61 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>SSU CSC</title>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Club Stuff">
-        <meta name="author" content="CSC">
 
-        <link href="css/main.css" rel="stylesheet">
-        <link href="css/bootstrapf.css" rel="stylesheet">
-        <link href="css/bootstrap.min.css" rel="stylesheet">
+<head>
+    <title>SSU Computer Science Club</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Club Stuff">
+    <meta name="author" content="Pablo Vargas and Romario Mato">
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    </head>
-    <body>
-        
-        <!--Navbar-->
-        <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container">                           
-                <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>                            
-                        </button>                        
-                    </div>
-                
-                <ul class="nav navbar-nav">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Events</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
-        <!--Navbar-->
-        
-        
-        <!--Page header-->
-        <header class="header-image">
-                <div class="headline cointainer-fluid">                    
-                        <img id="logo" class="img-responsive center-block" src="img/logo.png">  
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Righteous|Roboto" rel="stylesheet">
+
+    <script></script>
+</head>
+
+<body>
+    
+    <!--Navbar-->
+    <nav class="navbar navbar-default navbar-fixed-top nav-justified" role="navigation">
+        <div class="container center-block block-center">                           
+            <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                            
+                    </button>    
+                    <a class="navbar-brand" href=""><img src="img/brand.png" alt="λ"></a>                    
+                    
                 </div>
+        <div class="collapse navbar-collapse  pull-right" id="bs-navbar-collapse">   
+            <ul class="nav navbar-nav nav-link" >
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+    <!--/Navbar-->
+    
+    
+    <!--Page header-->
+    <header class="header-image">
+            <div class="headline cointainer-fluid center-block">                    
+                    <img id="logo" class="img-responsive center-block" src="img/logo.png">  
             </div>
-        </header>
-        <!--Page header-->
-
+        </div>
+    </header>
+    <!--/Page header-->    
+    
+    
+    
+    
+    <!--home -->    
+    <div id = "home" class= "sub">    
+        <div class="container">        
+        <blockquote>The question of whether a computer can think is no more interesting than the question of whether a submarine can swim. <small>Edsger W. Dijkstra</small></blockquote>
         
-        <blockquote>I fear not the man who has practiced 10000 kicks once, but the man who has practiced one kick 10000 times. <small>B. Yi</small></blockquote>
-        
-        
-        <!--Carousel-->
-        <div class="container-fluid">
-            <div class="col-md-8" style="padding-left: 0px;  padding-right: 0px;">
+        <p>
+            The Computer Science club brings SSU students interested in computer computer science, and other related topics, together within the SSU community. <br/><br/>            
+            CSC also raises awareness of computer science issues, interesting topics within the field, hosts competitions and workshops, etc.                
+        </p>
+        <!--Carousel-->            
+        <div class="container-fluid center-block hidden">
+            <div class="col-md-1 col-md-offset-1">
                 <div id="myCarousel" class="carousel slide" data-ride="carousel">
                     
                     <ol class="carousel-indicators">
@@ -63,19 +79,18 @@
                         <li data-target="#myCarousel" data-slide-to="1"></li>
                         <li data-target="#myCarousel" data-slide-to="2"></li>
                     </ol>
-
                     
-                    <div class="carousel-inner">
+                    <div class="carousel-inner cointainer-fluid">
                         <div class="item active">
-                        <img src="img/yi1.jpg" alt="yi1">
+                            <img class="img-responsive" src="img/yi1.jpg" alt="yi1">
                         </div>
 
                         <div class="item">
-                        <img src="img/yi2.jpg" alt="yi2">
+                            <img  class="img-responsive" src="img/yi2.jpg" alt="yi2">
                         </div>
 
                         <div class="item">
-                        <img src="img/yi3.jpg" alt="yi3">
+                            <img  class="img-responsive"  src="img/yi3.jpg" alt="yi3">
                         </div>
                     </div>
 
@@ -91,7 +106,93 @@
                 </div>
             </div>
         </div>
-        <!--Carousel-->
-        
-    </body>
+        <!--/Carousel-->    
+        </div>
+    </div>
+    <!--/home -->  
+    
+    <!--events-->        
+    <div id="events" class="sub" >
+        <div class="container">
+            <h1>Events</h1>
+            <h2>• Contests&emsp;&emsp;&emsp;• Workshops&emsp;&emsp;&emsp;• LAN Parties</h2>
+            <p>
+            複ざさつみ大世シタウ馬芸ヘ揃持は向振面速いぶ本青ほあゆか非水フじレき願素く判教ンつぎだ紀島境ン。73働レコイ花止はなょ露6支74労斉ー囲理アワ童紙フサツ弱他そ察語ルやくな権占祉けげべ。目めきり島材閣司ら証向井ヌエ全組ネ投社ミ選詳サヨワニ博39当ゅへげほ球妻メ稿象ぞフ計勢シオイ会戒ぴな。
+            
+            歳部れっ師日イのび五不サ際役ほたトイ谷21士ほざ江用要春生ア与彦と代瀬ス致氷表タマ新銃わぱフ問列一ぼぱ率守険そげ。女ンはぜす対行ヨソヱ済葬ぽ代治をるちく投誉おげ調話マ座帯そンだ扱額際さにぞほ形原コシ図79芸あせぐ記病じだせも飛侑倣べらりじ。校コヒ創成ナニミコ園現ワ視調っの株最取チソ護含トヱカホ更要せづレや郎内ヒサコ一合だクやが経郎フサヘ翻判スリカ江弾音屋京ぶにり。
+            Something, something, something, free food!
+            </p>
+        </div>
+    </div>
+    <!--/events-->  
+    
+    <!--about -->        
+    <div id="about" class=" sub" >
+            <div class="container">
+                <h1>About Us</h1>
+                <p> 
+                    The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk <a>MTV</a> quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz. Brick quiz whangs jumpy veldt fox.
+                </p>
+                <div class="row">
+                    <div class="col-md-3" align = "center">
+                        <img class="img-circle img-responsive " src="img/pre.jpg">
+                        <h3>President</h3>
+                        <p>Krista Forsythe</p>
+                    </div>
+                    <div class="col-md-3" align = "center">
+                        <img class="img-circle img-responsive " src="img/vp.jpg">
+                        <h3>Vice President</h3>
+                        <p>Dean Beckword</p>
+                    </div>
+                    <div class="col-md-3" align = "center">
+                        <img class="img-circle img-responsive " src="img/sec.jpg">
+                        <h3>Secretary of Defense</h3>
+                        <p>Pablo Vargas</p>
+                    </div>
+                    <div class="col-md-3" align = "center">
+                        <img class="img-circle img-responsive " src="img/tre.jpg">
+                        <h3>Treasurer</h3>
+                        <p>Romario Mato</p>
+                    </div>
+                </div>
+                <hr>
+                    <div class="row">
+                        <div class="col-md-3">
+                        </div>
+                        <div class="col-md-3" align = "center">
+                                <img class="img-circle img-responsive " src="img/yi.jpg" >
+                                <h3>Beifang Yi</h3>
+                                <p>Co-advisor</p>
+                        </div>
+                        <div class="col-md-3"align = "center">
+                            <img class="img-circle img-responsive " src="img/ken.jpg" align="center">
+                            <h3>Sotirios Kentros</h3>
+                            <p>Co-advisor</p>
+                        </div>               
+                        <div class="col-md-3">
+                        </div>   
+                </div>
+                <p class="text-center"><br> Read our <a>constitution</a>.</p>
+            </div>
+        </div>
+        <!--/about --> 
+
+    <!--contacnt-->        
+    <div id="contact" class="sub" >
+        <div class="container">
+            <h1>Get in touch with us!</h1>
+            <p> Bla bla bla! <br> Some stuff goes here!! <br> And even more stuff goes here!!!
+            </p>
+        </div>
+    </div>
+    <!--/contact -->          
+
+    <!--footer-->        
+    <div id="footer" class="block-center" >
+        <p> Made with ❤ <br/>&copy; Computer Science Club at Salem State University, 2017</p>
+    </div>
+    <!--/footer-->  
+
+</body>
+
 </html>
