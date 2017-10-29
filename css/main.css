@@ -74,14 +74,17 @@ a{
     color: rgb(131, 113, 172) !important;      
 }
 .sub {
-    padding-top: 12em;
-    padding-bottom: 12em;
+    padding-top: 6em;
+    padding-bottom: 8em;
 }
 #home{
 
 }
 #about{
     background: url("../img/1.jpg") no-repeat center center fixed;    
+}
+#about p{ 
+    padding-bottom: 1.75em;
 }
 #events{    
     background-color:  rgb(110, 93, 150);
@@ -90,8 +93,22 @@ a{
 #events h1, #events h2, #events h3 {
     color: rgb(225, 222, 233) !important;
 }
+#events a {
+    color: white !important;
+    text-decoration-line: underline;   
+}
+#events a:hover {
+    text-decoration: none;
+}
+#events p{ 
+    padding-top: 1.1em;
+    padding-bottom: 2.5em;
+}
 #contact {
     background: url("../img/2.jpg") no-repeat center center fixed;    
+}
+#contact a {
+    color: white !important;
 }
 #contact h1, #contact h2, #contact, h3#contact p {
     color: rgb(226, 222, 233) !important;
@@ -100,7 +117,8 @@ a{
     text-align: center;
     color: #2B2D42 !important;
     background-color: #EDF2F4;
-    padding: 4em;        
+    padding: 4em; 
+    font-size: 0.7em;       
 }
 h1{
     margin-bottom: 1em !important;
@@ -117,4 +135,6 @@ hr {
     height: 2em;
     width: auto;
 }
-  
+.glyphicon {
+    font-size: 3em;
+}
