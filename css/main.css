@@ -15,28 +15,6 @@ body {
 .headline {
     padding: 1em 0; 
 }
-.carousel {
-    width:60em;
-    height:40em;
-    overflow:hidden;
-}
-.carousel-inner > .item > img {
-    min-width: 100%;
-    width: 100%;
-}
-
-.thumbnail {
-    width: 100%;
-    min-height: 200px;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-}
-
-.thumbnail:hover {
-    opacity: 0.4;
-}
-
 .navbar-nav {
     padding: 0.2em;
     width: 100%;
