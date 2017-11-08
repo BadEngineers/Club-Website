@@ -27,7 +27,7 @@ body {
 .dropdown-item {
     font-size: 1em !important;
 }
-#navbarDropdownMenuLink {
+.nav-link{
     border:none !important;
 }
 .navbar-toggle {
@@ -53,9 +53,24 @@ body {
     margin-left: 1em;
     margin-right: 1em;
 }
-.nav-link a:hover {    
+.nav-link a:hover{    
     color: rgb(131, 113, 172)  !important;          
     border-bottom: solid 0.2em;
+}
+#navbarDropdownMenuLink {
+    border-style: solid !important;
+    border-radius: 7%;
+    border-color: transparent !important;
+    text-align: center;
+    color: rgb(90, 93, 126)  !important;      
+    font-family: 'Righteous', cursive !important;   
+    font-size: 1.2em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+#navbarDropdownMenuLink:hover {
+    color: rgb(131, 113, 172)  !important;          
+    border-bottom: solid 0.2em !important;
 }
 #main{        
     padding-top: 5em;    
@@ -110,7 +125,7 @@ a{
 #contact a {
     color: white !important;
 }
-#contact h1, #contact h2, #contact, h3#contact p {
+#contact h1, #contact h2, #contact h3, #contact p {
     color: rgb(226, 222, 233) !important;
 }
 #footer {

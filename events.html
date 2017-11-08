@@ -25,23 +25,34 @@
     <nav class="navbar navbar-default navbar-fixed-top nav-justified" role="navigation">
         <div class="container center-block block-center">                           
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>                            
-                </button>    
-                <a class="navbar-brand hidden-xs" href=""><img src="img/brand.png" alt="λ"></a>                    
-
-            </div>
-            <div class="collapse navbar-collapse  pull-right" id="bs-navbar-collapse">   
-                <ul class="nav navbar-nav nav-link" >
-                    <li><a href="index.html#home">Home</a></li>
-                    <li><a href="index.html#about">About</a></li>
-                    <li><a href="index.html#events">Events</a></li>
-                    <li><a href="index.html#contact">Contact</a></li>
-                </ul>
-            </div>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                            
+                    </button>    
+                    <a class="navbar-brand hidden-xs" href=""><img src="img/brand.png" alt="λ"></a>                    
+                    
+                </div>
+        <div class="collapse navbar-collapse  pull-right" id="bs-navbar-collapse">   
+            <ul class="nav navbar-nav nav-link" >
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Events
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="index.html#events">Events</a>
+                        <br>
+                        <a class="dropdown-item" href="contest.html">Contest<br></a>
+                        <a class="dropdown-item" href="https://www.facebook.com/pg/SSU.CSC/events/">Upcoming</a>
+                        <a class="dropdown-item" href="events.html">Past</a>
+                    </div>
+                    </li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
         </div>
     </nav>
     <!--/Navbar-->
