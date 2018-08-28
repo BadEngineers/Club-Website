@@ -1,3 +1,8 @@
+:root{
+    --accent-dark: #5a5d7e;
+    --accent-light: #8371ac;
+    --gray: #e3dee9;
+}
 body {    
     margin-top: 3.6em !important; 
     /*background-color: #EDF2F4 !important;*/
@@ -47,29 +52,30 @@ body {
     border-radius: 7%;
     border-color: transparent;
     text-align: center;
-    color: rgb(90, 93, 126)  !important;      
+    color: var(--accent-dark)  !important;      
     font-family: 'Righteous', cursive !important;   
     font-size: 1.2em;
     margin-left: 1em;
     margin-right: 1em;
 }
 .nav-link a:hover{    
-    color: rgb(131, 113, 172)  !important;          
+    color: var(--accent-light) !important;          
     border-bottom: solid 0.2em;
+    text-decoration: none !important;
 }
 #navbarDropdownMenuLink {
     border-style: solid !important;
     border-radius: 7%;
     border-color: transparent !important;
     text-align: center;
-    color: rgb(90, 93, 126)  !important;      
+    color: var(--accent-dark)  !important;      
     font-family: 'Righteous', cursive !important;   
     font-size: 1.2em;
     margin-left: 1em;
     margin-right: 1em;
 }
 #navbarDropdownMenuLink:hover {
-    color: rgb(131, 113, 172)  !important;          
+    color: var(--accent-light);          
     border-bottom: solid 0.2em !important;
 }
 #main{        
@@ -83,7 +89,7 @@ p{
 a{
     font-size: 1.1em;
     font-family: 'Roboto', sans-serif !important;
-    color: rgb(131, 113, 172) !important;      
+    color: var(--accent-light) !important;      
 }
 .sub {
     padding-top: 6em;
@@ -99,21 +105,22 @@ a{
     padding-bottom: 1.75em;
 }
 #about img{ 
+    max-height: 14em;
     filter: grayscale(100%) !important;
 }
 #events{    
-    background-color:  rgb(110, 93, 150);
+    background-color:  var(--accent-light);
     color: white;    
 }
 #events h1, #events h2, #events h3 {
-    color: rgb(225, 222, 233) !important;
+    color: var(--gray) !important;
 }
 #events a {
     color: white !important;
     text-decoration-line: underline;   
 }
 #events a:hover {
-    text-decoration: none;
+    text-decoration: none !important;
 }
 #events p{ 
     padding-top: 1.1em;
@@ -126,11 +133,11 @@ a{
     color: white !important;
 }
 #contact h1, #contact h2, #contact h3, #contact p {
-    color: rgb(226, 222, 233) !important;
+    color: var(--gray) !important;
 }
 #footer {
     text-align: center;
-    color: #2B2D42 !important;
+    color: black !important;
     background-color: #EDF2F4;
     padding: 4em; 
     font-size: 0.7em;       
@@ -139,7 +146,7 @@ h1{
     margin-bottom: 1em !important;
 }
 h1, h2, h3, h4 {
-    color: rgb(67, 58, 90) !important;
+    color: var(--accent-dark) !important;
     font-family: 'Righteous', cursive !important;   
 }
 hr {
@@ -156,4 +163,8 @@ hr {
 #text-bg {
     /* background-color: rgba(0, 0, 0, 0.3) !important; */
     text-shadow: 1px 1px 2px black;
+}
+
+.glyphicon-envelope {
+    font-size: 1em;
 }
